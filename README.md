@@ -29,7 +29,7 @@ Each pipe is small, pure, and optimized for performance — perfect for dashboar
 ### Quick Start
 
 ```bash
-npm i ngx-smart-pipes
+npm i @bjkavyashree/ngx-smart-pipes
 
 ### Example
 import { Component } from '@angular/core';
@@ -39,7 +39,7 @@ import {
   CurrencyCompactPipe,
   BytesPipe,
   PhoneMaskPipe,
-} from 'ngx-smart-pipes';
+} from '@bjkavyashree/ngx-smart-pipes';
 
 @Component({
   selector: 'demo-root',
