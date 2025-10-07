@@ -1,0 +1,29 @@
+{
+  "extends": "./tsconfig.base.json",
+  "compilerOptions": {
+    "target": "ES2022",
+    "module": "ES2020",
+    "declaration": true,
+    "sourceMap": true,
+    "inlineSources": true,
+    "strict": true,
+    "skipLibCheck": true,
+    "types": [],
+    "useDefineForClassFields": false,
+    "lib": ["ES2022", "DOM", "ES2020.Intl"]
+  },
+  "angularCompilerOptions": {
+    "compilationMode": "partial",
+    "strictInjectionParameters": true,
+    "strictTemplates": true
+  },
+  "files": [
+    "src/public-api.ts",
+    "src/lib/truncate.pipe.ts",
+    "src/lib/date-diff.pipe.ts",
+    "src/lib/currency-compact.pipe.ts",
+    "src/lib/bytes.pipe.ts",
+    "src/lib/phone-mask.pipe.ts",
+    "src/lib/ngx-smart-pipes.module.ts"
+  ]
+}
